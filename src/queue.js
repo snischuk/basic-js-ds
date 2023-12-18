@@ -33,6 +33,8 @@ class Queue {
 
     this.tail.next = newNode;
     this.tail = newNode;
+
+    return this;
   }
 
   dequeue() {
